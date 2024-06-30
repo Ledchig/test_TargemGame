@@ -1,0 +1,17 @@
+{
+  "name": "test_targemgame",
+  "version": "1.0.0",
+  "description": "Script for reading csv file and create table in postgresql db",
+  "type": "module",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Savonin Nikolay",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "date-fns": "^3.6.0",
+    "pg": "^8.12.0"
+  }
+}
